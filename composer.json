@@ -1,0 +1,28 @@
+{
+    "name": "tramasec/emision_vehiculos",
+    "description": "Emisiones Vehiculos",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Tramas",
+            "email": "vsandoval@tramasec.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1",
+        "symfony/validator": "4.*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.8",
+        "symfony/dotenv": "^4.2",
+        "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tramasec\\EmisionVehiculos\\": "src/"
+        }
+    }
+}
